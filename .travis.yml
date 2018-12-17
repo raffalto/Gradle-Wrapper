@@ -1,4 +1,4 @@
-#file yml sintassi
+#file yml sintassi:
 #due space per indentare
 #prima di ogni elemento della lista va messo -
 
@@ -8,7 +8,7 @@ env:
   global:
     - SURGE_LOGIN=raffaelealtobelli3@gmail.com
     #secure è il risultato del comando: 
-    #travis encrypt SURGE_TOKEN=5c7e3271c3e41f052abefaf012626e4e 
+    #travis encrypt SURGE_TOKEN=... 
     #(eseguito dopo aver lanciato il comando travis login)
     - secure: "D3lig9a+PrwDweryY5qLW5ujH3LzSi4KZqVcRK4n39s20vhCjU2M+8XXOniD187+bVb7uwQdUCfr+Nc9vFYJTIzru8KX4d1vaw9ulfktVMvn4zEcR/6ekibArnzpkEUYxxdfm8LjKuwr7jpn1nc7dtG0dYU0yEJ/uyicl+6tiyec2YUouJtEh7qcgO7abO8K3ox23TxDgBJ96PFUadky+VvhbdHfqfA/RXjIg8SG1m6ZFnrAc6bjyDkZKEjkfi6bNnFTncQ6l+TMfJfwIC6/mM7LviLJGpre3Sh+ErmmIkNfNZfYIXzx0EJBmjaBfUO5+KyqHpNVK/KhhaBS3m1GnB8EB4nBBOSBoHRXXpcF3nYsDdyS4z1/km7ABXYeQTQqZI2jZCcwmCdiWXFZ386s1Jl1+ic/o+N/jG6SZQJ3g/06jhU82Zuu+2aiPgCm35iRrsLAby8I/5nhdwHxGw9pXUNml7XHQLTfv0a7kb/YCJv3mSb5+fO+0bpP/fziLGKMhThmUQCw1Z29kVm4vFf+r5LJpJIWOiaw5QC6PoVaR4ydopiM42IFeivsJHqmHqBF99Ugjgr4u4fSu1Z4kf/XqnGC5s4eKPBaA+av+FUtw6aIlfzo+zdcVj/BQWHrOyruNDFSxsc/oKRb6sOIK9bfhnR7yLwI5MsES6XY4jtrI8E="
 
