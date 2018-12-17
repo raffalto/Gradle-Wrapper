@@ -24,5 +24,6 @@ deploy:
   provider: surge
   project: build/reports/
   domain: 2018-scm-reports-raffaele.surge.sh
+  skip_cleanup: true
   on:
     all_branches: true
