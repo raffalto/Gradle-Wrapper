@@ -1,1 +1,13 @@
+#file yml sintassi
+#due space per indentare
+#prima di ogni elemento della lista va messo -
+
 language: java
+.
+# Disable Travis install phase 
+install: true
+# or -echo "Do nothing"
+
+# Execute our custom build
+script: 
+  - ./gradlew clean buildDashboard
