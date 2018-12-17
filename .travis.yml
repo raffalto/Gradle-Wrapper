@@ -24,3 +24,5 @@ deploy:
   provider: surge
   project: build/reports/
   domain: 2018-scm-reports-raffaele.surge.sh
+  on:
+    all_branches: true
